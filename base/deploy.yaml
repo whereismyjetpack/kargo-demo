@@ -12,6 +12,7 @@ spec:
     metadata:
       labels:
         app: kargo-demo
+        test: true
     spec:
       containers:
       - name: nginx 
