@@ -7,12 +7,10 @@ spec:
   selector:
     matchLabels:
       app: kargo-demo
-      test: true
   template:
     metadata:
       labels:
         app: kargo-demo
-        test: true
     spec:
       containers:
       - name: nginx 
